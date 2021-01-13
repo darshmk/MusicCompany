@@ -28,24 +28,6 @@ A GUI application created using *Java Swings, AWT and JDBC Client* to interface 
 * [ConnectDB.java](https://github.com/neerajsk911/MusicRecordingCompany/blob/324550c5b7f0b2c5c688a613ae628e0db23f7c3f/src/databases/ConnectDB.java) in the package **databases** is responsible for **retrieving the connection** from the database using JDBC operations. The Database name , Username and Password **as mentioned in the file** is evaluated to retrieve the connection. Therefore it must be **updated** following the requirements of the DB.
 
 
-## UML Relations
-
-* ***Use Case Diagram:***
-
-![image](others/usecase.png)
-
-* ***Class Diagram:***
-
-
-![image](others/classdiagram.png)
-
-* ***ER Diagram for the Database:***
-
-
-![image](others/erdiagram.jpg)
-
-*All the UML relation are expected results. Actual Structure of the Program can possibly differ from the UML*
-
 ## Backend Details
 * The entity sets in the following project are:
 * *Song*
@@ -74,49 +56,6 @@ particular Song can be Orchestrated by only a Single Band.
 
 *Sample relations in the Database*
 
-## Screenshots
-
-* ***Login Page:***
-
-![image](others/login.png)
-
-*Username: admin     Password: musicdb (as inserted in loginDB table of database)*
-
-*Username: regular    Password: imreguser (Regular User)*
-
-* ***Failed Validation:***
-
-![image](others/failed.png)
-
-* ***Functionalities after logging as Admin:***
-
-![image](others/admin.png)
-
-*Admin can Insert, Update and Remove the Database contents apart from Displaying*
-
-* ***Functionalities after logging as Regular User:***
-
-![image](others/local.png)
-
-* ***UI Icons:***
-
-![image](others/icons.png)
-
-* ***Displaying a Record from Database:***
-
-![image](others/display.png)
-
-* ***Adding a New Song:***
-
-![image](others/insert.png)
-
-* ***Updating a Production details:***
-
-![image](others/update.png)
-
-* ***About Us:***
-
-![image](others/aboutus.png)
 
 ## Class Description
 
